@@ -1,6 +1,6 @@
 {
   "name": "domainprobe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js package for retrieving detailed information about a domain including its IP address and location.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,4 @@
     "url": "https://github.com/Surajchandraa/domainprobe.git"
   },
   "homepage": "https://github.com/Surajchandraa/domainprobe"
-  
 }
