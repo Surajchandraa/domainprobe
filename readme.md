@@ -144,6 +144,38 @@ The Domain Info Extractor is a Node.js package that allows users to provide a do
 
 ```
 
+## Function available (5):
+- **exact_location(latitude,longitude,callback)**
+- this function is used for getting exact location from the latitude and longitude. you can get lat and long from above functions 'data_extract' and 'data_extract_ip'.
+- ***Example***-
+
+```bash
+    info.exact_location(28.58,77.33, (err, result) => {
+    if (err) {
+      console.error('Error:', err);
+    } else {
+      console.log('Result:', result);
+    }
+  });
+
+```
+
+- ***Output***-
+```js
+    Result: {
+    suburb: 'Sector 10',
+    city: 'Noida',
+    town: 'Dadri',
+    state_district: 'Gautam Buddha Nagar District',
+    state: 'Uttar Pradesh',
+    'ISO3166-2-lvl4': 'IN-UP',
+    postcode: '201301',
+    country: 'India',
+    country_code: 'in'
+    }
+
+```
+
 
 
 ## Example 1:
