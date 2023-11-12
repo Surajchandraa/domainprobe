@@ -9,9 +9,10 @@ The Domain Info Extractor is a Node.js package that allows users to provide a do
 
 ## Features:
 - you can get ip address of domain name (e.g- 'https://github.com/)
-- you can get information regarding domain name (e.g- location , hostname, long,lat etc)
+- you can get information regarding domain name (e.g- location , hostname, longitude,latitude etc)
 - you can get hostname using ip address.
 - you can get infomation directly using ip address. (e.g- location,hostname,etc)
+- you can get exact location using latitude and longitude
 
 
 ## Usage:
