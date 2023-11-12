@@ -146,7 +146,7 @@ The Domain Info Extractor is a Node.js package that allows users to provide a do
 ```
 
 ## Function available (5):
-- **exact_location(latitude,longitude,callback)**
+- **exact_location(longitude,latitude,callback)**
 - this function is used for getting exact location from the latitude and longitude. you can get lat and long from above functions 'data_extract' and 'data_extract_ip'.
 - ***Example***-
 
