@@ -27,6 +27,7 @@ function data_extract(domain_name, callback) {
                     finaldata2.latitude=latitude;
                     delete finaldata2.readme;
                     delete finaldata2.loc;
+                    delete finaldata2.postal;
                     callback(null, finaldata2);
                 });
 

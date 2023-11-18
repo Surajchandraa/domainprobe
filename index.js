@@ -5,6 +5,4 @@ const data_extract_ip=require('./src/data_direct_by_ip');
 const exact_location=require('./src/location');
 
 
-  
-
 module.exports={get_ip,data_extract,get_hostname,data_extract_ip,exact_location}
