@@ -13,7 +13,7 @@ The Domain Info Extractor is a Node.js package that allows users to provide a do
 - you can get hostname using ip address.
 - you can get infomation directly using ip address. (e.g- location,hostname,etc)
 - you can get exact location using latitude and longitude
-- get text records of domainname.
+- get text records,mx records,cname records.
 
 
 ## Usage:
@@ -188,6 +188,10 @@ The Domain Info Extractor is a Node.js package that allows users to provide a do
       console.log('Result:', result);
     }
   });
+
+
+
+  //similar functions 'get_mx','get_cname'
 
 ```
 
