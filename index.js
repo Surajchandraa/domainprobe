@@ -6,9 +6,7 @@ const exact_location=require('./src/location');
 const get_text=require('./src/txtrecord');
 
 
-get_text("https://github.com/Surajchandraa",(err,res)=>{
-    console.log(res)
-})
 
 
-module.exports={get_ip,data_extract,get_hostname,data_extract_ip,exact_location}
+
+module.exports={get_ip,data_extract,get_hostname,data_extract_ip,exact_location,get_text}
