@@ -7,7 +7,7 @@ function get_ip(domain_name,callback){
     const domain = parsedUrl.hostname;
 
     const lookupOptions = {
-    all: true, // Resolve all types of records
+    all: true, 
     };
 
     dns.lookup(domain,lookupOptions,(err,address)=>{

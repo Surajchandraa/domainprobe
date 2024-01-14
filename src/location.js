@@ -17,7 +17,7 @@ function exact_location(lat,long,callback){
         },
       };
 
-      // Pass options as the first argument
+      
       https.get(apiUrl, options, (res) => {
         let data = '';
 
