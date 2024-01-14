@@ -3,8 +3,10 @@ const data_extract=require('./src/data_using_ip');
 const get_hostname=require('./src/other_data');
 const data_extract_ip=require('./src/data_direct_by_ip');
 const exact_location=require('./src/location');
+const get_text=require('./src/txtrecord');
 
-get_ip("https://github.com/",(err,res)=>{
+
+get_text("https://github.com/Surajchandraa",(err,res)=>{
     console.log(res)
 })
 
